@@ -12,6 +12,7 @@ class Character: public QObject, public QGraphicsPixmapItem
     Q_OBJECT
 public:
     Character();
+    void keyPressEvent(QKeyEvent *event);
 };
 
 #endif // CHARACTER_H

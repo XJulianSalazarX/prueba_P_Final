@@ -24,6 +24,12 @@ Widget::Widget(QWidget *parent)
     scene->addItem(player);
     player->setPos(width()/2-50,height()-200);
 
+    //Poner focus sobre el item (reciba lo que se resiva por teclado)
+    player->setFlag(QGraphicsItem::ItemIsFocusable);
+    player->setFocus();
+
+
+
 
 }
 
