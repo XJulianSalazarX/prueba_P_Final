@@ -3,5 +3,6 @@
         <file>imagenes/carrito_bueno.png</file>
         <file>imagenes/carrito_malo.png</file>
         <file>imagenes/mesa de trabajo.jpg</file>
+        <file>imagenes/bullet.jpg</file>
     </qresource>
 </RCC>
