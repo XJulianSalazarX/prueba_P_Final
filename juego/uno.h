@@ -5,9 +5,10 @@
 
 class uno
 {
-    Q_OBJECT
+
 public:
     uno();
+    ~uno();
 };
 
 #endif // UNO_H
