@@ -27,10 +27,6 @@ Widget::Widget(QWidget *parent)
     //Poner focus sobre el item (reciba lo que se resiva por teclado)
     player->setFlag(QGraphicsItem::ItemIsFocusable);
     player->setFocus();
-
-
-
-
 }
 
 Widget::~Widget()
