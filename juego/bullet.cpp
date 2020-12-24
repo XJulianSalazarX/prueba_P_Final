@@ -3,7 +3,7 @@
 
 Bullet::Bullet()
 {
-    setPixmap(QPixmap(":/imagenes/bullet.jpg").scaled(10,50));
+    setPixmap(QPixmap(":/imagenes/bala.png").scaled(10,50));
 
     timer = new QTimer();
     connect(timer,SIGNAL(timeout()),this,SLOT(move()));

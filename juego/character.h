@@ -7,8 +7,7 @@
 #include <QGraphicsScene>
 #include "bullet.h"
 
-
-class Character: public QObject, public QGraphicsPixmapItem
+class Character:public QObject, public QGraphicsPixmapItem
 {
     Q_OBJECT
 public:

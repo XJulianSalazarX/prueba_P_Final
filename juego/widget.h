@@ -5,7 +5,6 @@
 #include <QGraphicsScene>
 #include "character.h"
 
-
 QT_BEGIN_NAMESPACE
 namespace Ui { class Widget; }
 QT_END_NAMESPACE
@@ -22,7 +21,5 @@ private:
     Ui::Widget *ui;
     QGraphicsScene *scene;
     Character *player;
-
-
 };
 #endif // WIDGET_H
