@@ -19,11 +19,13 @@ SOURCES += \
     bullet.cpp \
     character.cpp \
     main.cpp \
+    obs.cpp \
     widget.cpp
 
 HEADERS += \
     bullet.h \
     character.h \
+    obs.h \
     widget.h
 
 FORMS += \
