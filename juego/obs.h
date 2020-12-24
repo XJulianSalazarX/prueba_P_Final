@@ -6,6 +6,7 @@ class obs
 {
 public:
     obs();
+   ~obs();
 };
 
 #endif // OBS_H
